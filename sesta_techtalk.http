@@ -1,0 +1,18 @@
+GET http://localhost:1234/techtalks1/list
+#####
+
+POST http://localhost:1234/techtalks1/techtalks1Add
+Content-Type: application/json
+
+{
+        "academic_year":"2022", 
+        "sem_id":"1", 
+        "department_id":"2", 
+        "date":"2024-01-31", 
+        "title of the event":"jhgfdfghj", 
+        "name_of_the_student":"sdfghj", 
+        "year":"2024", 
+        "semester":"2", 
+        "section":"1", 
+        "no_of_beneficiaries":"1"
+}

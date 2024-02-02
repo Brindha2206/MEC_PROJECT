@@ -1,0 +1,20 @@
+GET http://localhost:1234/vac/list
+#####
+
+POST http://localhost:1234/vac/vacAdd
+Content-Type: application/json
+
+{
+        "academic_year":"2023", 
+        "sem_id":"2", 
+        "department_id":"1", 
+        "name_of_the_value_added_course":"vac", 
+        "address_of_the_resource_person":"vbnm", 
+        "designation_id":"2", 
+        "organization_of_resources_person":"cvbn", 
+        "mobile_of_resource_person":"12452", 
+        "email_id_of_rresource_person":"sxdcfvbn@", 
+        "students_participated_in_the_event":"52", 
+        "outcome_of_the_activity":"sdfghj",
+        "ccr_first_page_pdf":"bn"
+}
